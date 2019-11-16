@@ -8,6 +8,7 @@ before_install :
 
 # scripts :
 #   - docker run ogiku85/docker-react npm run test -- --coverage
+# added language to prevent trvais ci failure
 language: generic
 deploy :
   provider : elasticbeanstalk
